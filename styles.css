@@ -1,0 +1,138 @@
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+header {
+    text-align: center;
+    background: linear-gradient(to bottom, #559be1, #0D47A1); 
+    padding: 20px 0;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 30px;
+    
+}
+
+/* Style the about section */
+#about {
+    background: linear-gradient(to bottom, #0D47A1, #e6b3ce); 
+    padding: 50px 200px;
+    
+    text-align: center;
+    color: #fff;
+}
+
+#about img {
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+
+#about p {
+    margin-top: 10px;
+}
+
+
+#skills {
+    background: linear-gradient(to bottom, #e6b3ce, #4782a3); 
+    padding: 30px 0;
+    text-align: center;
+}
+
+#skills h2 {
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #FFC107; 
+    border-radius: 5px;
+}
+
+
+#projects {
+   
+    background: linear-gradient(to bottom, #4782a3, #edeeed); 
+    padding: 50px 0 ;
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.project img {
+    padding-top: 50px   ;
+    max-width: 40%;
+    margin-right: 20px;
+}
+
+.project h3,
+.project p {
+    flex: 1;
+}
+
+
+#resume {
+    font-size: 30px;
+    background: linear-gradient(to bottom, #edeeed, #63e46e); 
+    padding: 50px 0;
+    text-align: center;
+    color: #0b0a0a;
+}
+
+
+#contact {
+    background: linear-gradient(to bottom, #63e46e, #E64A19); 
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
